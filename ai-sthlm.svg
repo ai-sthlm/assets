@@ -2,7 +2,6 @@
 <title id="title">AI Sthlm network skyline</title>
 <desc id="desc">Stockholm skyline traced as a delicate cyan network, with golden spires and the three crowns of City Hall.</desc>
 <defs><filter id="gold-glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="5"/></filter><filter id="blue-glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5"/></filter></defs>
-<rect width="2048" height="768" fill="#07121c"/>
 <g fill="none" stroke-linecap="round">
 <path d="M40.0 491.0 50.0 486.0" stroke="#36bce9" stroke-opacity="0.85" stroke-width="1"/>
 <path d="M40.0 491.0 59.0 522.0" stroke="#36bce9" stroke-opacity="0.33" stroke-width="0.7"/>
