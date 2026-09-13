@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>AI Sthlm — City Hall</title>
+  <circle cx="16" cy="16" r="16" fill="#07121c"/>
+  <path d="M12 25V13L14 11V10L16 8 18 10V11L20 13V25M12 13H20M12 18H20" fill="none" stroke="#a5edfa" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="m4 24 5-3 3 4 8-7 4 4 4 2M12 18 20 25M12 25 20 25" fill="none" stroke="#39b8df" stroke-width=".8"/>
+  <g fill="#a5edfa"><circle cx="12" cy="25" r="1.4"/><circle cx="20" cy="25" r="1.4"/><circle cx="12" cy="18" r="1"/><circle cx="20" cy="18" r="1"/></g>
+  <g fill="#ffdb86"><path d="M11 4l1 3h3l1-3-1.6 1L13.5 3 12.6 5ZM17 4l1 3h3l1-3-1.6 1L19.5 3 18.6 5ZM14 7l.7 2h2.6l.7-2-1.2.5L16 6l-.8 1.5Z"/></g>
+</svg>

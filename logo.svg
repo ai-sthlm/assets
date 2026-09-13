@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AI Sthlm — City Hall</title>
+  <desc id="desc">Stockholm City Hall's tall square tower and three golden crowns, drawn as a cyan network inside a midnight-blue circle.</desc>
+  <defs>
+    <radialGradient id="night" cx="50%" cy="42%" r="65%"><stop stop-color="#102635"/><stop offset="1" stop-color="#07121c"/></radialGradient>
+    <filter id="halo" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6"/></filter>
+    <path id="crown" d="M-10-5-7 5H7L10-5 4 0 0-7-4 0Z"/>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="url(#night)"/>
+  <circle cx="256" cy="256" r="239" fill="none" stroke="#7de3f5" stroke-opacity=".17" stroke-width="1.5"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#39b8df" stroke-width="2" opacity=".55">
+      <path d="M83 354 127 380 162 328 194 374 219 303 293 374 337 321 377 378 429 351"/>
+      <path d="M83 354 162 328 127 380 194 343 219 374 293 303 337 367 377 330 429 351"/>
+      <path d="M127 380 194 374 219 374 293 374 337 367 377 378M162 328 219 303M293 303 337 321 377 330"/>
+      <path d="M219 210 293 259 219 303 293 374M293 210 219 259 293 303 219 374M236 168 276 192M276 168 236 192"/>
+    </g>
+    <path d="M83 354 127 343 162 315 194 328 219 328M293 303 337 303 377 330 429 351" stroke="#85dff1" stroke-width="3"/>
+    <path d="M219 374V210L236 192V168L256 139 276 168V192L293 210V374M219 210H293M219 259H293M219 374H293M236 168H276" stroke="#a5edfa" stroke-width="4"/>
+    <path d="M236 192H276M256 176V188" stroke="#85dff1" stroke-width="2.5"/>
+    <path d="M256 139V117M256 120 239 107M256 120 273 107" stroke="#ffdb86" stroke-width="2"/>
+  </g>
+  <g fill="#a5edfa">
+    <circle cx="83" cy="354" r="5"/><circle cx="127" cy="343" r="5"/><circle cx="127" cy="380" r="4"/>
+    <circle cx="162" cy="315" r="5"/><circle cx="162" cy="328" r="4"/><circle cx="194" cy="328" r="5"/><circle cx="194" cy="374" r="4"/>
+    <circle cx="219" cy="210" r="6.5"/><circle cx="293" cy="210" r="6.5"/>
+    <circle cx="219" cy="259" r="6"/><circle cx="293" cy="259" r="6"/>
+    <circle cx="219" cy="303" r="5"/><circle cx="293" cy="303" r="5"/>
+    <circle cx="219" cy="374" r="7"/><circle cx="293" cy="374" r="7"/>
+    <circle cx="236" cy="168" r="5"/><circle cx="276" cy="168" r="5"/>
+    <circle cx="236" cy="192" r="3"/><circle cx="276" cy="192" r="3"/>
+    <circle cx="337" cy="303" r="5"/><circle cx="337" cy="321" r="4"/><circle cx="337" cy="367" r="4"/>
+    <circle cx="377" cy="330" r="5"/><circle cx="377" cy="378" r="4"/><circle cx="429" cy="351" r="5"/>
+  </g>
+  <g fill="#ffdb86" opacity=".45" filter="url(#halo)">
+    <use href="#crown" transform="translate(239 102)"/><use href="#crown" transform="translate(273 102)"/>
+    <use href="#crown" transform="translate(256 119)"/><circle cx="256" cy="139" r="7"/>
+  </g>
+  <g fill="#ffdb86">
+    <use href="#crown" transform="translate(239 102)"/><use href="#crown" transform="translate(273 102)"/>
+    <use href="#crown" transform="translate(256 119)"/><circle cx="256" cy="139" r="6"/>
+  </g>
+</svg>
